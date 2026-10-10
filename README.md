@@ -1,6 +1,6 @@
 # Hi, I'm xnjiang
 
-Indie developer. I design, build, and ship iOS apps solo — **seven of them on the App Store**, most within the past year. I also build AI-powered web products under [Qumge](https://qumge.com).
+I design, build, and ship iOS apps — **seven of them on the App Store**, most within the past year. I also build AI-powered web products under [Qumge](https://qumge.com).
 
 Most of my repositories are private, so this page — not the pinned list below it — is the real index of what I've made.
 
