@@ -1,68 +1,45 @@
 # Hi, I'm xnjiang
 
-I design, build, and ship iOS apps — **seven of them on the App Store**, most within the past year. I also build AI-powered web products under [Qumge](https://qumge.com).
+[English](README.md) · [简体中文](README.zh-CN.md)
 
-Most of my repositories are private, so this page — not the pinned list below it — is the real index of what I've made.
+I build AI products under [Qumge](https://qumge.com), from marketing and learning to voice notes and agents with a lasting personality. These are the five projects I focus on.
 
-## Apps
+## AutoWhisper — an AI CMO for your product
 
-<table>
-<tr>
-<td align="center" width="25%">
-<a href="https://apps.apple.com/app/id6743360755"><img src="assets/speakpen.png" width="88" alt="SpeakPen"><br><b>SpeakPen</b></a><br>
-<sub>Turn speech into structured text</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://apps.apple.com/app/id6761253285"><img src="assets/scanmind.png" width="88" alt="ScanMindX"><br><b>ScanMindX</b></a><br>
-<sub>Medical records, organized</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://apps.apple.com/app/id6761259382"><img src="assets/snapclean.png" width="88" alt="SnapClean"><br><b>SnapClean</b></a><br>
-<sub>See what's really taking space</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://apps.apple.com/app/id6760376947"><img src="assets/pushcount.png" width="88" alt="PushCount"><br><b>PushCount</b></a><br>
-<sub>Push-ups unlock your apps</sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="25%">
-<a href="https://apps.apple.com/app/id6760111354"><img src="assets/streakschain.png" width="88" alt="StreaksChain"><br><b>StreaksChain</b></a><br>
-<sub>Miss a day, keep the streak</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://apps.apple.com/app/id6760289815"><img src="assets/squatstreak.png" width="88" alt="SquatStreak"><br><b>SquatStreak</b></a><br>
-<sub>Chair stand test, 30-day plan</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://apps.apple.com/app/id6760292007"><img src="assets/flowgrid.png" width="88" alt="FlowGrid"><br><b>FlowGrid</b></a><br>
-<sub>A puzzle that never rushes you</sub>
-</td>
-<td align="center" width="25%"></td>
-</tr>
-</table>
+[AutoWhisper](https://autowhisper.xyz) brings product research, content creation, review and scheduled publishing into one marketing workspace. Turn product information and real materials into videos, images and social copy, working with an AI CMO or your own agent.
 
-## Open Source
+[MCP server](https://github.com/Qumge/autowhisper-mcp) · [Agent skill](https://github.com/Qumge/autowhisper-skill)
 
-- [**autowhisper-mcp**](https://github.com/xnjiang/autowhisper-mcp) — MCP server for AutoWhisper: generate, approve, and publish marketing content across 30+ platforms from any MCP client
-- [**autowhisper-skill**](https://github.com/xnjiang/autowhisper-skill) — The same, packaged as an agent skill for Claude, Cursor, and n8n
-- [**37soul-mcp**](https://github.com/xnjiang/37soul-mcp) — MCP server for 37Soul: list your AI characters, chat with them, tell them to post
-- [**37soul-skill**](https://github.com/xnjiang/37soul-skill) — 37Soul as an agent skill
-- [**speakpen-obsidian**](https://github.com/xnjiang/speakpen-obsidian) — Obsidian plugin that syncs SpeakPen voice summaries into your vault as Markdown
+## 37Soul — give your agent a lasting personality
 
-## On the Web
+[37Soul](https://37soul.com) gives agents a consistent identity, a relationship with you and experience that grows over time. Bring your Soul into Claude Code, Codex and other agents, or meet and talk to characters on the web.
 
-- [**SpeakPen**](https://speakpen.app) — Capture your words, get structured insight back
-- [**Tali**](https://tali.run) — Upload your study materials, get notes and quizzes generated for you
-- [**37Soul**](https://37soul.com) — AI characters that post, react, and talk back
-- [**AutoWhisper**](https://autowhisper.xyz) — An AI CMO that writes and publishes across 30+ platforms
+[Agent setup](https://37soul.com/for-agents) · [MCP server](https://github.com/Qumge/37soul-mcp) · [Agent skill](https://github.com/Qumge/37soul-skill)
 
-## Stack
+## Qumge — a capability marketplace for agents
 
-**iOS** — Swift, SwiftUI, SwiftData, WidgetKit, StoreKit, HealthKit, Vision
-**Web** — Ruby on Rails, PostgreSQL, Redis, Sidekiq, TypeScript
-**Agents** — MCP servers and agent skills
+[Qumge](https://qumge.com) helps agents find and call capabilities that complete a task and return a result, with a clear contract and price. Developers can publish capabilities and earn from usage; a shared prepaid balance also provides access to models through compatible APIs.
 
-## Contact
+[MCP server](https://github.com/Qumge/qumge-mcp) · [Agent skill](https://github.com/Qumge/qumge-skill)
 
-[xnjiang@qumge.com](mailto:xnjiang@qumge.com) · [qumge.com](https://qumge.com)
+## Tali — turn study materials into daily progress
+
+[Tali](https://tali.run) turns your study materials into notes, questions and review sessions. Set an exam date, practise each day and revisit weak points with spaced repetition, with progress shaped by what you can answer.
+
+## SpeakPen — capture a thought, give it a future
+
+[SpeakPen](https://speakpen.app) captures spoken ideas on your phone or Apple Watch and turns them into transcribed, summarized notes. Revisit what matters, develop ideas with AI and your knowledge library, or bring existing notes into your agent and Obsidian workflows.
+
+[iOS app](https://apps.apple.com/app/id6743360755) · [MCP server](https://github.com/Qumge/speakpen-mcp) · [Agent skill](https://github.com/Qumge/speakpen-skill) · [Obsidian plugin](https://github.com/xnjiang/speakpen-obsidian)
+
+## Other projects
+
+- [MuseFlow PLM](https://github.com/Qumge/museflow-plm) — self-hosted manufacturing PLM for drawings, parts, BOMs and release approvals.
+- [Aprove AI](https://github.com/Qumge/aprove-ai) — bilingual, self-hosted project operations covering approvals, orders, deliveries and payments.
+- [Marlo](https://github.com/Qumge/marlo) — Qumge's desktop distribution of OpenWorker, with Qumge sign-in and model access.
+
+**More iOS apps:** [ScanMindX](https://apps.apple.com/app/id6761253285) (medical records) · [SnapClean](https://apps.apple.com/app/id6761259382) (storage cleanup) · [PushCount](https://apps.apple.com/app/id6760376947) (push-ups) · [StreaksChain](https://apps.apple.com/app/id6760111354) (habits) · [SquatStreak](https://apps.apple.com/app/id6760289815) (chair-stand training) · [FlowGrid](https://apps.apple.com/app/id6760292007) (puzzles).
+
+**Built with:** Ruby on Rails · PostgreSQL · Redis · Sidekiq · TypeScript · Swift / SwiftUI · MCP & agent skills.
+
+[xnjiang@qumge.com](mailto:xnjiang@qumge.com) · [Qumge on GitHub](https://github.com/Qumge)
